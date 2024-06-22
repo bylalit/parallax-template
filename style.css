@@ -1,0 +1,589 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.nav{
+    width: 100%;
+    height: 60vh;
+    background-image: url(image/parallax1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    /* position: fixed; */
+    /* z-index: 1; */
+    /* background-color: white; */
+}
+
+.menu ul {
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: rgba(0, 0, 0, 0.628);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+}
+.menu ul li i{
+    margin-right: 5px;
+}
+.menu ul li a:hover{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.628);
+}
+.search i{
+    font-size: 10px;
+    padding: 10px;
+}
+.search i:hover{
+    color: white;
+    background-color: red;
+}
+
+.center h3{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgba(0, 0, 0);
+    display: inline-block;
+    letter-spacing: 5px;
+    padding: 8px 12px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about{
+    margin: 20px 15%;
+    padding: 10px 20px;
+}
+
+.about h3{
+    text-transform: uppercase;
+    color:rgba(0, 0, 0, 0.628);
+    padding: 5px 0;
+    text-align: center;
+    font-weight: 500;
+}
+.about h5{
+    text-align: center;
+    padding: 10px 0 20px 0;
+    color:rgba(0, 0, 0, 0.628);
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.about p{
+    width: 100%;
+    font-size: 10px;
+    color:rgba(0, 0, 0, 0.628);
+    line-height: 18px;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+.info .name{
+    width: 50%;
+    padding: 5px;
+}
+.info .name b{
+    display: block;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.628);
+    font-size: 11px;
+    padding: 20px 0;
+}
+.info .name b i{
+    margin-right: 5px;
+}
+
+.info .name img{
+    width: 100%;
+    opacity: 0.7;
+}
+.info .name img:hover{
+    opacity: 1;
+}
+
+.info .data{
+    width: 50%;
+    padding: 20px 15px;
+}
+h6{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 550;
+    color:rgba(0, 0, 0, 0.628);
+}
+
+.box{
+    width: 100%;
+}
+.box p{
+    padding: 10px 0;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.box .be{
+    width: 100%;
+    height: 25px;
+    background-color:rgba(186, 169, 169, 0.806);
+    
+}
+.box .be .fe{
+    width: 85%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.628);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 100%;
+}
+.box1 p{
+    padding: 10px 0;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.box1 .be{
+    width: 100%;
+    height: 25px;
+    background-color:rgba(186, 169, 169, 0.806);
+    
+}
+.box1 .be .fe{
+    width: 75%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.628);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    width: 100%;
+}
+.box2 p{
+    padding: 10px 0;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+.box2 .be{
+    width: 100%;
+    height: 25px;
+    background-color:rgba(186, 169, 169, 0.806);
+    
+}
+.box2 .be .fe{
+    width: 50%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.628);
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.628);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.count .a1 h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.count .a1 p{
+    color: white;
+    font-size: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 50vh;
+    background-image: url(image/parallax2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    position: relative;
+}
+.img p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 7px;
+    font-size: 22px;
+}
+
+.work{
+    margin: 20px 15%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.628);
+}
+.work p{
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 0;
+    color: rgba(0, 0, 0, 0.628);
+}
+
+.work .image-work{
+    width: 100%;
+    margin: 30px 0; 
+}
+.work .image-work .row1{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.work .image-work .row1 img{
+    width: 25%;
+}
+.work .image-work .row1 img:hover{
+    opacity: 0.7;
+}
+.work .image-work .row2{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.work .image-work .row2 img{
+    width: 25%;
+}
+.work .image-work .row2 img:hover{
+    opacity: 0.7;
+}
+
+.work button{
+    text-align: center;
+    padding: 10px 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    font-size: 11px;
+}
+.work button:hover{
+    background-color: rgba(109, 108, 108, 0.628);
+}
+
+
+.img-1{
+    width: 100%;
+    height: 50vh;
+    background-image: url(image/parallax3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    position: relative;
+}
+.img-1 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 7px;
+    font-size: 22px;
+}
+
+.map{
+    margin: 20px 15% 60px 15%;
+    padding: 10px 20px;
+}
+.map h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.628);
+}
+
+.map p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.628);
+    font-style: italic;
+    font-size: 10px;
+}
+
+.map .infomation{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+}
+
+.map .infomation .add{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map .infomation .add img{
+    width: 90%;
+    border-radius: 5px;
+}
+
+.map .infomation .form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.map .infomation .form b{
+    color: rgba(109, 102, 102, 0.628);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.map .infomation .form b i{
+    margin-right: 20px;
+}
+
+.map .infomation .form p{
+    text-align: start;
+    font-style: normal;
+    color: rgba(109, 102, 102, 0.628);
+}
+
+.map .infomation .form .input {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.map .infomation .form .input input{
+    padding: 7px 10px;
+    font-size: 12px;
+    border: 1px solid rgba(109, 102, 102, 0.628);
+}
+.map .infomation .form input{
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid rgba(109, 102, 102, 0.628);
+    margin: 3px 0;
+}
+
+.map .infomation .form button{
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    font-weight: 400;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.map .infomation .form button i{
+    margin-right: 3px;
+}
+
+.map .infomation .form button:hover{
+    background-color: rgb(199, 185, 185);
+    color: black;
+}
+
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.6;
+}
+.footer:hover{
+    opacity: 1;
+}
+
+.footer a button{
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: lighter;
+    background-color: white;
+    border: none;
+}
+
+.footer a button i{
+    margin-right: 5px;
+
+}
+.footer a button:hover{
+    background-color: rgb(212, 210, 210);
+}
+
+.footer p{
+    margin: 20px 0;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer p i:hover{
+   color: rgb(212, 210, 210);
+}
+
+.footer h6{
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.footer h6 a{
+    color: white;
+}
+
+.footer h6 a:hover{
+    color: brown;
+}
+
+@media screen and (max-width : 968px){
+    .about {
+        margin: 20px 0;
+    }
+    .work {
+        margin: 20px 0;
+    }
+    .map {
+        margin: 20px 0 60px 0;
+    }
+}
+
+@media screen and (max-width : 768px){
+
+    .nav{
+        background-position: top;
+    }
+    .info{
+        display: block;
+    }
+    .info .name {
+        width: 100%;
+    }
+    .info .data{
+        width: 100%;
+    }
+
+    .map .infomation {
+        display: block;
+    }
+
+    .map .infomation .add{
+        width: 100%;
+    }
+    .map .infomation .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width : 600px){
+
+    .nav{
+        top: 0;
+    }
+
+    .work .image-work .row1{
+        display: block;
+    }
+    .work .image-work .row1 img {
+        width: 100%;
+    }
+
+    .work .image-work .row2{
+        display: block;
+    }
+    .work .image-work .row2 img {
+        width: 100%;
+    }
+
+    .center h3{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width : 400px){
+    .center h3{
+        font-size: 10px;
+        letter-spacing: 4px;
+        top: 24%;
+    }
+    .nav{
+        height: 45vh;
+    }
+}
+
+@media screen and (max-width : 350px){
+    .menu .link{
+        display: none;
+    }
+    .menu .search{
+        position: absolute;
+        right: 0;
+    }
+    .search i{
+        font-size: 15px;
+    }
+    .center h3{
+        font-size: 8px;
+        top: 20%;
+        letter-spacing: 3px;
+    }
+}
