@@ -20,38 +20,39 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 40px;
-    /* position: fixed; */
-    /* z-index: 1; */
-    /* background-color: white; */
+    height: 60px;
 }
 
 .menu ul {
     display: flex;
+    margin-left: 20px;
 }
 .menu ul li{
     list-style: none;
+    margin: 0 5px;
 }
 .menu ul li a{
     color: rgba(0, 0, 0, 0.628);
     text-decoration: none;
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px;
 }
 .menu ul li i{
-    margin-right: 5px;
+    margin-right: 8px;
 }
 .menu ul li a:hover{
     color: black;
     background-color: rgba(0, 0, 0, 0.628);
 }
 .search i{
-    font-size: 10px;
+    font-size: 16px;
     padding: 10px;
+    margin-right: 20px;
 }
 .search i:hover{
     color: white;
     background-color: red;
+    cursor: pointer;
 }
 
 .center h3{
@@ -62,14 +63,15 @@
     background-color: rgba(0, 0, 0);
     display: inline-block;
     letter-spacing: 5px;
-    padding: 8px 12px;
+    padding: 10px 12px;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 300;
+    border-radius: 5px;
 }
 
 .about{
-    margin: 20px 15%;
+    margin: 40px 15%;
     padding: 10px 20px;
 }
 
@@ -79,21 +81,23 @@
     padding: 5px 0;
     text-align: center;
     font-weight: 500;
+    font-size: 40px;
 }
 .about h5{
     text-align: center;
     padding: 10px 0 20px 0;
     color:rgba(0, 0, 0, 0.628);
     font-style: italic;
-    font-size: 11px;
+    font-size: 18px;
     font-weight: 300;
 }
 
 .about p{
     width: 100%;
-    font-size: 10px;
+    font-size: 13px;
     color:rgba(0, 0, 0, 0.628);
-    line-height: 18px;
+    line-height: 20px;
+    padding-bottom: 20px;
 }
 
 .info{
@@ -109,11 +113,11 @@
     display: block;
     text-align: center;
     color:rgba(0, 0, 0, 0.628);
-    font-size: 11px;
-    padding: 20px 0;
+    font-size: 18px;
+    padding: 10px 0;
 }
 .info .name b i{
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 .info .name img{
@@ -126,35 +130,44 @@
 
 .info .data{
     width: 50%;
-    padding: 20px 15px;
+    padding: 30px 15px;
 }
+.info .data p{
+    padding-top: 20px;
+    font-size: 17px;
+    line-height: 22px;
+    text-align:justify;
+}
+
 h6{
     text-align: center;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: 550;
     color:rgba(0, 0, 0, 0.628);
 }
 
 .box{
     width: 100%;
+    margin: 10px 0;
 }
 .box p{
     padding: 10px 0;
     letter-spacing: 5px;
     font-weight: 500;
+    font-size: 16px;
 }
 .box .be{
     width: 100%;
-    height: 25px;
+    height: 30px;
     background-color:rgba(186, 169, 169, 0.806);
     
 }
 .box .be .fe{
     width: 85%;
-    height: 25px;
+    height: 30px;
     background-color: rgba(0, 0, 0, 0.628);
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,24 +175,26 @@ h6{
 
 .box1{
     width: 100%;
+    margin: 10px 0;
 }
 .box1 p{
     padding: 10px 0;
     letter-spacing: 5px;
     font-weight: 500;
+    font-size: 16px;
 }
 .box1 .be{
     width: 100%;
-    height: 25px;
+    height: 30px;
     background-color:rgba(186, 169, 169, 0.806);
     
 }
 .box1 .be .fe{
     width: 75%;
-    height: 25px;
+    height: 30px;
     background-color: rgba(0, 0, 0, 0.628);
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,24 +202,26 @@ h6{
 
 .box2{
     width: 100%;
+    margin: 10px 0;
 }
 .box2 p{
     padding: 10px 0;
     letter-spacing: 5px;
     font-weight: 500;
+    font-size: 16px;
 }
 .box2 .be{
     width: 100%;
-    height: 25px;
+    height: 30px;
     background-color:rgba(186, 169, 169, 0.806);
     
 }
 .box2 .be .fe{
     width: 50%;
-    height: 25px;
+    height: 30px;
     background-color: rgba(0, 0, 0, 0.628);
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,13 +238,13 @@ h6{
 
 .count .a1 h6{
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 500;
     padding-bottom: 5px;
 }
 .count .a1 p{
     color: white;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .img{
@@ -248,11 +265,11 @@ h6{
     transform: translate(-50%, -50%);
     color: white;
     letter-spacing: 7px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .work{
-    margin: 20px 15%;
+    margin: 30px 15%;
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
@@ -265,11 +282,12 @@ h6{
     padding: 15px 0;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.628);
+    font-size: 40px;
 }
 .work p{
     text-align: center;
-    font-size: 10px;
-    padding: 5px 0;
+    font-size: 13px;
+    padding: 3px 0;
     color: rgba(0, 0, 0, 0.628);
 }
 
@@ -308,7 +326,9 @@ h6{
     font-weight: 400;
     border: none;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .work button:hover{
     background-color: rgba(109, 108, 108, 0.628);
@@ -333,7 +353,7 @@ h6{
     transform: translate(-50%, -50%);
     color: white;
     letter-spacing: 7px;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .map{
@@ -346,19 +366,20 @@ h6{
     padding: 12px 0;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.628);
+    font-size: 35px;
 }
 
 .map p{
     text-align: center;
     color: rgba(0, 0, 0, 0.628);
     font-style: italic;
-    font-size: 10px;
+    font-size: 16px;
 }
 
 .map .infomation{
     width: 100%;
     display: flex;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 
 .map .infomation .add{
@@ -367,6 +388,7 @@ h6{
     align-items: center;
     justify-content: center;
 }
+
 .map .infomation .add img{
     width: 90%;
     border-radius: 5px;
@@ -383,7 +405,7 @@ h6{
 
 .map .infomation .form b{
     color: rgba(109, 102, 102, 0.628);
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -393,6 +415,7 @@ h6{
 }
 
 .map .infomation .form p{
+    padding-top: 10px;
     text-align: start;
     font-style: normal;
     color: rgba(109, 102, 102, 0.628);
@@ -405,13 +428,14 @@ h6{
 }
 
 .map .infomation .form .input input{
-    padding: 7px 10px;
-    font-size: 12px;
+    padding: 10px;
+    font-size: 14px;
     border: 1px solid rgba(109, 102, 102, 0.628);
 }
 .map .infomation .form input{
     width: 100%;
-    padding: 7px 10px;
+    padding: 10px;
+    font-size: 14px;
     border: 1px solid rgba(109, 102, 102, 0.628);
     margin: 3px 0;
 }
@@ -420,14 +444,15 @@ h6{
     color: white;
     background-color: black;
     border: none;
-    padding: 8px 10px;
+    padding: 12px 13px;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 15px;
     position: absolute;
     right: 0;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 15px;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 .map .infomation .form button i{
@@ -455,12 +480,14 @@ h6{
 }
 
 .footer a button{
-    padding: 8px 12px;
+    padding: 12px 22px;
     cursor: pointer;
-    font-size: 11px;
+    font-size: 17px;
+    border-radius: 2px;
     font-weight: lighter;
     background-color: white;
     border: none;
+    margin-bottom: 10px;
 }
 
 .footer a button i{
@@ -472,10 +499,13 @@ h6{
 }
 
 .footer p{
-    margin: 20px 0;
-    font-size: 17px;
+    margin: 10px 0;
+    font-size: 25px;
     color: white;
     cursor: pointer;
+}
+.footer p i{
+    margin-right: 10px;
 }
 
 .footer p i:hover{
@@ -484,7 +514,7 @@ h6{
 
 .footer h6{
     color: white;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -532,12 +562,19 @@ h6{
     }
     .map .infomation .form{
         width: 100%;
+        margin-top: 50px;
     }
+
 }
 @media screen and (max-width : 600px){
+    .menu ul li a {
+        font-size: 12px;
+        padding: 8px;
+    }
 
     .nav{
         top: 0;
+        height: 40vh;
     }
 
     .work .image-work .row1{
@@ -560,13 +597,16 @@ h6{
 }
 
 @media screen and (max-width : 400px){
+    .menu ul {
+        margin-left: 10px;
+    }
     .center h3{
         font-size: 10px;
         letter-spacing: 4px;
         top: 24%;
     }
     .nav{
-        height: 45vh;
+        height: 32vh;
     }
 }
 
